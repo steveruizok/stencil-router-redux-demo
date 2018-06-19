@@ -1,21 +1,2 @@
 /*! Built with http://stenciljs.com */
-const { h } = window.App;
-
-import { a as TypeKeys } from './chunk-c62281c0.js';
-
-var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-const appUpdateCount = (change) => (dispatch, _getState) => __awaiter(undefined, void 0, void 0, function* () {
-    return dispatch({
-        type: TypeKeys.APP_UPDATE_COUNT,
-        change: change
-    });
-});
-
-export { appUpdateCount as a };
+const{h:n}=window.App;import{a as t}from"./chunk-c62281c0.js";const o=n=>(o,r)=>(c=void 0,e=void 0,i=void 0,a=function*(){return o({type:t.APP_UPDATE_COUNT,change:n})},new(i||(i=Promise))(function(n,t){function o(n){try{u(a.next(n))}catch(n){t(n)}}function r(n){try{u(a.throw(n))}catch(n){t(n)}}function u(t){t.done?n(t.value):new i(function(n){n(t.value)}).then(o,r)}u((a=a.apply(c,e||[])).next())}));var c,e,i,a;export{o as a};

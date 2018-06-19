@@ -2,30 +2,30 @@
   "namespace": "App",
   "fsNamespace": "app",
   "loader": "../app.js",
-  "corePolyfilled": "es5-build-disabled.js",
   "global": "app.global.js",
-  "core": "app.core.js",
+  "corePolyfilled": "app.ikybuc3w.js",
+  "core": "app.t3cibbwz.js",
   "components": {
     "app-counter": {
-      "$": "app-counter"
+      "$": "xrghvvcb"
     },
     "app-home": {
-      "$": "app-home"
+      "$": "yukedeqr"
     },
     "app-profile": {
-      "$": "app-profile"
+      "$": "u42yr6oc"
     },
     "app-root": {
-      "$": "app-root"
+      "$": "xtjtnlh0"
     },
     "stencil-route": {
-      "$": "app-root"
+      "$": "xtjtnlh0"
     },
     "stencil-route-link": {
-      "$": "app-counter"
+      "$": "xrghvvcb"
     },
     "stencil-router": {
-      "$": "app-root"
+      "$": "xtjtnlh0"
     }
   }
 }
