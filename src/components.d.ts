@@ -27,7 +27,6 @@ declare global {
 
 import '@stencil/redux';
 import '@stencil/router';
-import '@stencil/state-tunnel';
 
 import {
   Store,
