@@ -40,7 +40,7 @@ class AppHome {
                 this.count,
                 ", but we can change it using the control below. When we route to our Profile Page, the count should be preserved."),
             h("p", null, "Count:"),
-            h("app-counter", { onChange: this.appUpdateCount, count: this.count }),
+            h("app-counter", { changeCount: this.appUpdateCount, count: this.count }),
             h("p", null, "Routes:"),
             h("stencil-route-link", { url: "/profile/stencil" },
                 h("button", null, "Profile page"))));

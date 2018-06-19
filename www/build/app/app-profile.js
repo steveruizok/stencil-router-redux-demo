@@ -24,7 +24,7 @@ class AppProfile {
                     this.match.params.name,
                     ". My name was passed in through a route param!"),
                 h("p", null, "Count:"),
-                h("app-counter", { onChange: this.appUpdateCount, count: this.count }),
+                h("app-counter", { changeCount: this.appUpdateCount, count: this.count }),
                 h("p", null, "Routes:"),
                 h("stencil-route-link", { url: "/" },
                     h("button", null, "Back home"))));

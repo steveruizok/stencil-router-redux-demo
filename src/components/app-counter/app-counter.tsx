@@ -5,7 +5,7 @@ import { Component, Prop } from "@stencil/core";
   styleUrl: "app-counter.css"
 })
 export class AppCounter {
-  @Prop() onChange: any;
+  @Prop() changeCount: any;
   @Prop() count: number;
 
   render() {
@@ -13,14 +13,14 @@ export class AppCounter {
       <div>
         <button
           onClick={() => {
-            this.onChange(-10);
+            this.changeCount(-10);
           }}
         >
           -10
         </button>
         <button
           onClick={() => {
-            this.onChange(-1);
+            this.changeCount(-1);
           }}
         >
           -1
@@ -28,14 +28,14 @@ export class AppCounter {
         <span class="count">{this.count}</span>
         <button
           onClick={() => {
-            this.onChange(1);
+            this.changeCount(1);
           }}
         >
           +1
         </button>
         <button
           onClick={() => {
-            this.onChange(10);
+            this.changeCount(10);
           }}
         >
           +10

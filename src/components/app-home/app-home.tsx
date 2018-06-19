@@ -54,7 +54,7 @@ export class AppHome {
         </p>
 
         <p>Count:</p>
-        <app-counter onChange={this.appUpdateCount} count={this.count} />
+        <app-counter changeCount={this.appUpdateCount} count={this.count} />
 
         <p>Routes:</p>
         <stencil-route-link url="/profile/stencil">

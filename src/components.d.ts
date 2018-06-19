@@ -40,8 +40,8 @@ declare global {
 
   namespace StencilComponents {
     interface AppCounter {
+      'changeCount': any;
       'count': number;
-      'onChange': any;
     }
   }
 
@@ -64,8 +64,8 @@ declare global {
   }
   namespace JSXElements {
     export interface AppCounterAttributes extends HTMLAttributes {
+      'changeCount'?: any;
       'count'?: number;
-      'onChange'?: any;
     }
   }
 }
