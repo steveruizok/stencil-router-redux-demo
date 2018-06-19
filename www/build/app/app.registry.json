@@ -1,0 +1,31 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "global": "app.global.js",
+  "core": "app.core.js",
+  "components": {
+    "app-counter": {
+      "$": "app-counter"
+    },
+    "app-home": {
+      "$": "app-home"
+    },
+    "app-profile": {
+      "$": "app-profile"
+    },
+    "app-root": {
+      "$": "app-root"
+    },
+    "stencil-route": {
+      "$": "app-root"
+    },
+    "stencil-route-link": {
+      "$": "app-counter"
+    },
+    "stencil-router": {
+      "$": "app-root"
+    }
+  }
+}
