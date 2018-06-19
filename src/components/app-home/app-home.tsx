@@ -40,7 +40,7 @@ export class AppHome {
             <br />
             npm install @stencil/redux
             <br />
-            npm install redux-thunk
+            npm install redux-logger
             <br />
             npm install stencil-router
           </pre>

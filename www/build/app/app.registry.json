@@ -3,14 +3,14 @@
   "fsNamespace": "app",
   "loader": "../app.js",
   "global": "app.global.js",
-  "corePolyfilled": "app.ikybuc3w.js",
   "core": "app.t3cibbwz.js",
+  "corePolyfilled": "app.ikybuc3w.js",
   "components": {
     "app-counter": {
       "$": "xrghvvcb"
     },
     "app-home": {
-      "$": "yukedeqr"
+      "$": "gwdiuplz"
     },
     "app-profile": {
       "$": "u42yr6oc"
