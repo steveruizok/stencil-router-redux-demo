@@ -1,0 +1,66 @@
+{
+  "hosting": {
+    "rules": [
+      {
+        "include": "/",
+        "headers": [
+          {
+            "name": "Link",
+            "value": "</build/app/app.t3cibbwz.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/xrghvvcb.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/wqb2h2md.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/xtjtnlh0.js>;rel=preload;as=script"
+          }
+        ]
+      },
+      {
+        "include": "/profile/stencil",
+        "headers": [
+          {
+            "name": "Link",
+            "value": "</build/app/app.t3cibbwz.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/xrghvvcb.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/u42yr6oc.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/xtjtnlh0.js>;rel=preload;as=script"
+          }
+        ]
+      },
+      {
+        "include": "/build/app/**",
+        "headers": [
+          {
+            "name": "Cache-Control",
+            "value": "public, max-age=31536000"
+          }
+        ]
+      },
+      {
+        "include": "/sw.js",
+        "headers": [
+          {
+            "name": "Cache-Control",
+            "value": "no-cache, no-store, must-revalidate"
+          }
+        ]
+      }
+    ]
+  }
+}

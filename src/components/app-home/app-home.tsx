@@ -31,26 +31,16 @@ export class AppHome {
     return (
       <div class="app-home">
         <p>
-          This project is a very simple demo of a stencil-redux working
-          alongside stencil-router. It was creating using:
-          <pre>
-            npm init stencil
-            <br />
-            npm install redux
-            <br />
-            npm install @stencil/redux
-            <br />
-            npm install redux-logger
-            <br />
-            npm install stencil-router
-          </pre>
-          The store is created in <code>app-root</code> and passed to routes
-          using:
-          <pre>componentProps={"{{ store: this.store }}"}</pre>
-          It works as you'd expect! In this example, we have a state with a
-          single property, count. It's currently at {this.count}, but we can
-          change it using the control below. When we route to our Profile Page,
-          the count should be preserved.
+          This project is a very simple demo of stencil-redux working alongside
+          stencil-router. We create the store in the root module,
+          <code> app-root</code>, and passed to routes using
+          <code> componentProps</code>.
+        </p>
+        <p>
+          In this example, we have a state with a single property,
+          <code> count</code>. It's currently at {this.count}, but we can change
+          it using the control below. When we route to our Profile Page (and
+          back to this one) our shared store will preserve this count.
         </p>
 
         <p>Count:</p>
